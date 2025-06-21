@@ -1,0 +1,80 @@
+1. Introducción
+Este proyecto consiste en el desarrollo de una aplicación web destinada a facilitar la gestión de documentos académicos relacionados con el área de laboratorio para estudiantes de primer y segundo semestre.
+Se busca ofrecer una herramienta digital que agilice el acceso a manuales de prácticas, lineamientos institucionales del laboratorio y organización de grupos académicos, promoviendo la eficiencia en la gestión
+de recursos didácticos.
+
+2. Justificación del Proyecto
+En la actualidad, muchas instituciones educativas aún dependen de medios tradicionales o desorganizados para distribuir documentos académicos, lo cual genera pérdida de información, errores logísticos y retrasos.
+Este proyecto responde a la necesidad de:
+
+- Digitalizar el acceso a documentos clave.
+- Ofrecer una interfaz intuitiva, formal y profesional.
+- Garantizar la trazabilidad, centralización y actualización de contenidos de forma eficiente.
+- Establecer una base tecnológica que permita escalar el proyecto a otros niveles académicos.
+
+3. Objetivos
+3.1 Objetivo General
+Desarrollar una aplicación web funcional y segura que permita a los estudiantes de primeros semestres consultar, descargar y visualizar materiales de laboratorio organizados por nivel académico, asegurando el 
+acceso controlado mediante autenticación.
+
+3.2 Objetivos Específicos
+- Diseñar un sistema de autenticación de usuarios básico y funcional.
+- Crear una estructura de navegación clara y jerárquica.
+- Implementar visualización y descarga de archivos educativos en formato digital.
+- Construir una interfaz multiplataforma responsiva (dispositivos móviles y PC).
+- Utilizar herramientas de control de versiones para asegurar la mantenibilidad del código fuente (Git y GitHub).
+- Documentar cada fase del proyecto para facilitar futuras iteraciones o actualizaciones.
+
+4. Alcance del Proyecto
+Incluye:
+- Usuarios de primero y segundo semestre.
+- Acceso a manuales, lineamientos y listas de grupos.
+- Interfaz adaptativa para dispositivos móviles y de escritorio.
+- Hosting provisional en GitHub Pages.
+
+No incluye (en la versión inicial):
+- Registro automático de usuarios.
+- Panel administrativo en línea.
+- Edición colaborativa de documentos desde la plataforma.
+
+5. Arquitectura Tecnológica del Proyecto
+El desarrollo del sistema se fundamenta en una arquitectura basada en herramientas de desarrollo web. Esta selección estratégica de tecnologías garantiza una solución robusta, escalable y compatible con diversos
+entornos operativos y dispositivos, además de facilitar la colaboración técnica y el mantenimiento continuo.
+
+Lenguajes y estructura del frontend
+La interfaz de usuario será desarrollada utilizando HTML5, CSS3 y JavaScript en su versión estándar (vanilla). HTML5 proporciona una estructura semántica clara y ordenada. CSS3 permitirá aplicar estilos visuales
+y estructuras flexibles mediante el uso de Flexbox y Grid. JavaScript se encargará de gestionar las interacciones del usuario, la validación de formularios y la lógica dinámica del navegador.
+
+Control de versiones y gestión colaborativa
+La gestión del código fuente se realizará mediante el sistema de control de versiones Git, con alojamiento en la plataforma GitHub. Esta configuración permite llevar un control estructurado del ciclo de vida del
+software, facilitando la trazabilidad de los cambios. Se utilizarán ramas independientes para el desarrollo de nuevas funcionalidades y revisiones de código mediante pull requests.
+
+Infraestructura de despliegue
+Inicialmente, el sistema se alojará en GitHub Pages, una solución práctica y gratuita para aplicaciones web estáticas. Esta infraestructura permite una publicación rápida del sitio, ideal para fases de prueba,
+validación funcional y demostraciones ante usuarios o comités académicos.
+
+Diseño multiplataforma
+El sistema estará optimizado para múltiples dispositivos mediante un enfoque de diseño responsivo, utilizando media queries y estructuras adaptativas. Esto asegura que el contenido sea accesible y funcional en
+computadoras de escritorio, laptops, tablets y teléfonos móviles.
+
+Gestión documental
+Los documentos académicos serán distribuidos en formatos ampliamente compatibles como PDF y DOCX, permitiendo su descarga, visualización y almacenamiento en distintos dispositivos sin necesidad de software 
+especializado adicional.
+
+6. Mantenimiento y Actualizaciones Futuras
+Se plantea asignar el proyecto a una cuenta institucional o académica en GitHub, donde:
+- El administrador tenga control sobre versiones estables.
+- Otras cuentas (profesores, estudiantes asignados) puedan colaborar mediante ramas.
+- Las actualizaciones se planifiquen durante los periodos intersemestrales.
+
+7. Conclusión
+Este proyecto tiene como meta digitalizar y profesionalizar el acceso a recursos de laboratorio, utilizando tecnologías abiertas y un enfoque escalable. La plataforma brindará a los estudiantes una herramienta 
+accesible y organizada, mientras que al cuerpo docente le ofrecerá un medio estructurado para distribuir materiales. Con una arquitectura modular y bien documentada, esta aplicación podrá mantenerse, extenderse
+y adaptarse a nuevas necesidades educativas.
+
+
+
+
+
+
+
